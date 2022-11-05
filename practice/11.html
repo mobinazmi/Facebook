@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .a {
+        display: grid;
+        grid-template-columns: 200px 75px;
+      }
+      .aa {
+        background-color: aqua;
+      }
+      .ab {
+        background-color: blueviolet;
+      }
+      .b {
+        display: grid;
+        grid-template-columns: 50px 1fr 75px;
+      }
+      .ba {
+        background-color: cadetblue;
+      }
+      .bb {
+        background-color: darkmagenta;
+      }
+      .bc {
+        background-color: fuchsia;
+      }
+      .c {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        row-gap: 10px;
+        column-gap: 20px;
+      }
+      .ca {
+        background-color: greenyellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="a">
+      <div class="aa">200px</div>
+      <div class="ab">75px</div>
+    </div>
+
+    <div class="b">
+      <div class="ba">col1</div>
+      <div class="bb">col2</div>
+      <div class="bc">col3</div>
+    </div>
+
+    <div class="c">
+      <div class="ca">col1</div>
+      <div class="ca">col2</div>
+      <div class="ca">col3</div>
+      <div class="ca">col4</div>
+      <div class="ca">col1</div>
+      <div class="ca">col2</div>
+      <div class="ca">col3</div>
+      <div class="ca">col4</div>
+    </div>
+  </body>
+</html>

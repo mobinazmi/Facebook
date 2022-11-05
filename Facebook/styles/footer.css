@@ -1,0 +1,59 @@
+#footer {
+  display: flex;
+  flex-direction: column;
+  position:relative;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  font-size: 12px;
+  margin: 30px 175px 10px 175px;
+  color: gray;
+}
+#languages {
+  display: flex;
+  border-bottom: 1px solid rgb(224, 224, 224);
+  padding-bottom: 5px;
+  align-items: center;
+}
+#languages a{
+  padding: 0 7px 0 0;
+  cursor: pointer;
+}
+#languages a:hover {
+  text-decoration: underline;
+}
+#languages p {
+  padding: 0 7px 0 0;
+  margin: 0;
+}
+#languages button {
+  background-color: rgb(237, 241, 241);
+  border: 1px solid rgb(224, 224, 224);
+  border-radius: 3px;
+  font-size: 20px;
+  padding: 0;
+  text-align: center;
+  width: 30px;
+  transition: background-color 0.15s;
+}
+#languages button:hover {
+  background-color: rgb(220, 228, 228);
+}
+#help {
+  display: flex;
+  flex-wrap: wrap;  
+  margin-top: 8px;
+  margin-bottom: 15px;
+}
+#help a {
+  padding-right: 17px;
+  padding-top: 5px;
+  cursor: pointer;
+}
+#help a:hover {
+  text-decoration: underline;
+}
+#version {
+  font-size: 11px;
+}
+

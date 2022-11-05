@@ -1,0 +1,95 @@
+#all {
+  display: flex;
+  flex-direction: column;
+  margin: 140px 150px 100px 100px;
+  align-items: center;
+}
+#info 
+{
+  background-color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  
+}
+#info input {
+  font-size: 17px;
+  width: 350px;
+  border: 1px solid rgb(219, 217, 217);
+  border-radius: 5px;
+  height: 45px;
+  display: block;
+  margin-top: 12px;
+  padding-left: 15px ;
+}
+::placeholder {
+  color: rgb(155, 154, 154);
+  font-size: 17px;
+}
+#info input:focus {
+  outline: 1px solid rgb(4, 147, 243);
+  box-shadow: 1px 1px 5px rgba(0, 0, 255, 0.5);
+  caret-color: rgb(4, 147, 243);
+}
+#login {
+  width: 370px;
+  background-color: rgb(52, 102, 240);
+  color: white;
+  font-size: 22px;
+  font-weight: bolder;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+#login:hover {
+  background-color: rgb(49, 96, 226);
+}
+#forgot-password {
+  text-decoration: none;
+  color: rgb(52, 102, 240);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  font-size: 15px;
+  border-bottom: 1px solid rgb(219, 217, 217);
+  padding-bottom: 20px;
+  width: auto;
+}
+#forgot-password:hover {
+  text-decoration: underline;
+}
+#new-account {
+  text-align: center;
+  display: block;
+  background-color: rgb(3, 187, 3);
+  color: white;
+  border: none;
+  border-radius: 7px;
+  padding: 15px;
+  font-size: 17px;
+  font-weight: bold;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  transition: background-color 0.15s;
+}
+#new-account:hover {
+  background-color: rgb(0, 158, 0);
+}
+#special {
+  margin-top: 10px;
+  font-size: 15px;
+}
+#special span {
+  font-weight: bold;
+  cursor: pointer;
+}
+#special span:hover {
+  text-decoration: underline;
+}
+

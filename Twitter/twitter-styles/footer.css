@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  margin: 0;
+  bottom: 0;
+  font-family: Verdana, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  margin-bottom: 10px;
+}
+.about,
+.nothing {
+  text-decoration: none;
+  color: gray;
+  font-size: 14px;
+  display: inline-block;
+  padding: 5px;
+  margin: 0;
+  transition: text-decoration 0.15s;
+}
+.about:hover {
+  text-decoration: underline;
+}

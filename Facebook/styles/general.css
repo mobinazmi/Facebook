@@ -1,0 +1,20 @@
+body {
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+#main {
+  background: rgb(242, 242, 250);
+  position: relative;
+  display: flex;
+  padding-bottom: 75px;
+  }
+main {
+  display: flex;
+  flex-direction: row;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}

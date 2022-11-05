@@ -1,0 +1,158 @@
+.first {
+    font-family: Tahoma;
+    font-weight: bolder;
+    font-size: larger;
+  }
+  .lie {
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .end {
+    color: red;
+    font-style: italic;
+    font-family: Arial;
+    font-size: 15px;
+    margin-top: 0;
+  }
+
+  .title {
+    font-family: Verdana;
+    font-weight: bolder;
+    font-size: 20px;
+    width: 200px;
+    line-height: 22px;
+    margin-bottom: 15px;
+  }
+  .what { 
+    color: gray;
+    font-size: 16px;
+  }
+  .purpose {
+    font-family: Verdana;
+    font-size: 17pxpx;
+    width: 240px;
+    margin-top: 0;
+  }
+  .button {
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+  
+  }
+  .d {
+    font-family: Arial;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    width: 250px;
+    line-height: 30px;
+  }
+  .see {
+    font-size: 12px;
+    font-weight: lighter;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .link {
+    font-size: 12px;
+    margin-left: 55px;
+    text-align: center;
+    margin-right: 55px;
+    font-weight: lighter;
+    color: rgb(86, 86, 255);
+  }
+  .tit {
+    font-family: Arial;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 0;
+    width: 350px;
+    line-height: 30px;
+  }
+  .new {
+    color: red;
+    font-weight: lighter;
+    font-size: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 0;
+  }
+  .laptop {
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0;
+  }
+  .price {
+    font-size: 12px;
+    font-weight: lighter;
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+  .butt {
+    color: white;
+    background-color: rgb(15, 15, 235);
+    font-size: 12px;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 30px;
+  }
+  .f {
+    font-family: Arial;
+    font-size: 30px;
+    width: 250px;
+    line-height: 25px;
+  }
+  .a {
+    color: gray;
+    font-size: 15px;
+  }
+  .b {
+    color: green;
+    font-size: 15px;
+    margin-right: 80px;
+  }
+  .c {
+    color: gray;
+    font-size: 15px;
+    margin-left: 0;
+  }
+  .e{
+    color: red;
+    font-size: 15px;
+  }
+  .last {
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: bold;
+    width: 500px;
+    line-height: 20px;
+  }
+  .z {
+    color: gray;
+    font-weight: lighter;
+    margin-right: 210px;
+  }
+  .x {
+    font-weight: lighter;
+  }
+  .real {
+    font-family: Arial;
+    font-weight: lighter;
+  }
+  .s {
+    color: blue;
+  }

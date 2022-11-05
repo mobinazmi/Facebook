@@ -1,0 +1,66 @@
+.button{
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.a{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.Stretch {
+color: white;
+background-color: green;
+border: none;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 10px;
+padding-right: 10px;
+cursor: pointer;
+vertical-align: top;
+transition: padding 1s;
+}
+.Stretch:hover {
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 20px;
+padding-right: 20px;
+}
+.shadow {
+color: white;
+background-color: green;
+padding-left: 12px;
+padding-right: 12px;
+padding-top: 5px;
+padding-bottom: 5px;
+cursor: pointer;
+font-size: large;
+border: none;
+transition: box-shadow 0.15s,
+position 0.15s;
+}
+.shadow:hover {
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.shadow:active {
+position: relative;
+left: 2px;
+top: 2px;
+box-shadow: none;
+}
+.number {
+border: none;
+color: white;
+background-color: green;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+transition: padding 1s;
+}
+.number:hover {
+padding-left: 20px;
+padding-right: 20px;
+margin-left: 0px;
+margin-right: 0px;
+}
